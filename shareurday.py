@@ -6,7 +6,7 @@ from read_db import readDataFirst
 import os
 
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
-#---------------------------------------------------------------------
+
 app = Flask(__name__)
 
 @app.route('/')
