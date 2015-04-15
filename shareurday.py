@@ -13,5 +13,6 @@ app = Flask(__name__)
 def begin():
     return render_template("shareurday.html")
 
+app.config['SECRET_KEY'] = 'thisismysecretkeywhichyouwillneverguesshahahahahahahaha'
 if __name__ == "__main__":
     	app.run(debug=True)
