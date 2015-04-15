@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def begin():
-    return render_template("play.html")
+    return render_template("shareurday.html")
 
 app.config['SECRET_KEY'] = 'thisismysecretkeywhichyouwillneverguesshahahahahahahaha'
 if __name__ == "__main__":
