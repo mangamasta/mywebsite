@@ -1,1 +1,1 @@
-web: gunicorn shareurday:app
+web: gunicorn --log-file=- shareurday:app
