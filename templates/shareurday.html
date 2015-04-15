@@ -18,7 +18,7 @@
     border: 2px solid blue;
         background-color:#FFFFC2;
     margin-left:25%;
-    width: 50%;}
+    width: 70%;}
 
   h1 {
     text-align: center;
@@ -128,43 +128,43 @@
       <td>
         <table>
           <tr>
-            <td><img src="write_msg.png" alt="write" /></td>
+            <td><img src="..\static\write_msg.png" alt="write" /></td>
 
             <td>Write a diary message</td>
           </tr>
 
           <tr>
-            <td><img src="grab_msg.png" alt="get" /></td>
+            <td><img src="..\static\grab_msg.png" alt="get" /></td>
 
             <td>Grab a diary message</td>
           </tr>
 
           <tr>
-            <td><img src="mydiary.png" alt="diary" /></td>
+            <td><img src="..\static\mydiary.png" alt="diary" /></td>
 
             <td>Diary message container</td>
           </tr>
 
           <tr>
-            <td><img src="send_daily_msg.png" alt="send" /></td>
+            <td><img src="..\static\send_daily_msg.png" alt="send" /></td>
 
             <td>Send a message</td>
           </tr>
 
           <tr>
-            <td><img src="reply_to_msg.png" alt="reply" /></td>
+            <td><img src="..\static\reply_to_msg.png" alt="reply" /></td>
 
             <td>Reply to a message</td>
           </tr>
 
           <tr>
-            <td><img src="rate.png" alt="rate" /></td>
+            <td><img src="..\static\rate.png" alt="rate" /></td>
 
             <td>Rate a message</td>
           </tr>
 
           <tr>
-            <td><img src="back_btn.png" alt="back" /></td>
+            <td><img src="..\static\back_btn.png" alt="back" /></td>
 
             <td>Go back</td>
           </tr>
@@ -213,7 +213,7 @@
       var done = false;
       function onPlayerStateChange(event) {
         if (event.data == YT.PlayerState.PLAYING && !done) {
-          setTimeout(stopVideo, 6000);
+          setTimeout(stopVideo, 0);
           done = true;
         }
       }
