@@ -88,11 +88,11 @@
 
         <p class="p0">ShareUrDay is an Android application which allows a user to create
         their own diary and sharing it with users of multi-nationals anonymously. One
-        click of a button the user can create a diary message and share it on-line with
-        other user&rsquo;s across the world whom can reply, rate and report the diary
-        message while not knowing this person's identity. The app would allow users to
+        click of a button the user can create a diary message and share it on-line with many
+        other users across the world whom can reply, rate and report the diary
+        message while not knowing this person's identity. The application would allow users to
         socialise while learning about new cultures (reading their diary messages),
-        learning the different aspects of their lifestyle and would enhancely create
+        learning the different aspects of their lifestyle and would enhance to create
         relations for the public from adjacent races. ShareUrDay is simple, easy to use
         and effective.</p>
 
@@ -104,8 +104,8 @@
         from which we wrote were secrets and pieces of fragments from oneself. When all
         the pages were put together, the book was known as a diary. There were many
         diaries in the 19th century but when technology took over, our data was stored
-        elsewhere, in areas such as Facebook, Google and Instagram etc. Diaries were
-        becoming less common and eventually forgottened. Due to the increase of mobile
+        elsewhere, in areas such as Facebook, Google and Instagram et. Diaries were
+        becoming less common and eventually forgotten. Due to the increase of mobile
         applications,ShareUrDay was inspired to conserve a user's personal life journey
         from young to old and allows them to share their feelings and socialise at the
         same time while being anonymous to everybody else who uses ShareUrDay.</p>
@@ -186,51 +186,11 @@
       <td>
         <table>
           <tr>
-            <td>   <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
-    <div id="player"></div>
-
-    <script>
-      // 2. This code loads the IFrame Player API code asynchronously.
-      var tag = document.createElement('script');
-
-      tag.src = "https://www.youtube.com/iframe_api";
-      var firstScriptTag = document.getElementsByTagName('script')[0];
-      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-      // 3. This function creates an <iframe> (and YouTube player)
-      //    after the API code downloads.
-      var player;
-      function onYouTubeIframeAPIReady() {
-        player = new YT.Player('player', {
-          height: '390',
-          width: '640',
-          videoId: 'M7lc1UVf-VE',
-          events: {
-            'onReady': onPlayerReady,
-            'onStateChange': onPlayerStateChange
-          }
-        });
-      }
-
-      // 4. The API will call this function when the video player is ready.
-      function onPlayerReady(event) {
-        event.target.playVideo();
-      }
-
-      // 5. The API calls this function when the player's state changes.
-      //    The function indicates that when playing a video (state=1),
-      //    the player should play for six seconds and then stop.
-      var done = false;
-      function onPlayerStateChange(event) {
-        if (event.data == YT.PlayerState.PLAYING && !done) {
-          setTimeout(stopVideo, 0);
-          done = true;
-        }
-      }
-      function stopVideo() {
-        player.stopVideo();
-      }
-    </script></td>
+            <td>  
+<video width="820" height="540" controls>
+  <source src="ShareUrDay.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video></td>
           </tr>
         </table>
       </td>
